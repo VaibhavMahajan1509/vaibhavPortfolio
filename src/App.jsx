@@ -10,7 +10,7 @@ import ProjectsMain from "./components/projectsSection/ProjectsMain";
 import SkillsMain from "./components/skillsSection/SkillsMain";
 import SubSkills from "./components/skillsSection/SubSkills";
 import SubHeroMain from "./components/subHeroSection/SubHeroMain";
-import WhyHireMeBox from "./components/Navbar/WhyHireMeBox"; // New component
+import WhyHireMeBox from "./components/navbar/WhyHireMeBox";
 
 function App() {
   const [showAnswer, setShowAnswer] = useState(false);
