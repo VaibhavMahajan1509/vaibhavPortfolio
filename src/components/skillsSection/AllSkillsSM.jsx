@@ -6,20 +6,21 @@ import { FaReact } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { FaBootstrap } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import {  FaNodeJs, FaGitAlt, FaGithub } from "react-icons/fa";
 
 const skills = [
   {
-    skill: "HTML",
-    icon: FaGitAlt,
+    skill: "HTML5",
+    icon: FaHtml5,
   },
   {
-    skill: "CSS",
-    icon: FaGithub,
+    skill: "CSS3",
+    icon: FaCss3Alt,
   },
-  {
+   {
     skill: "JavaScript",
     icon: IoLogoJavascript,
   },
@@ -28,12 +29,20 @@ const skills = [
     icon: FaReact,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "Bootstrap",
+    icon: FaBootstrap,
   },
   {
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
+  },
+  {
+    skill: "Git",
+    icon: FaGitAlt,
+  },
+  {
+    skill: "Github",
+    icon: FaGithub,
   },
 ];
 

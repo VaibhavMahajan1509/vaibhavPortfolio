@@ -1,13 +1,10 @@
-import SingleContactSocial from "./SingleContactSocial";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FiGithub } from "react-icons/fi";
-import { FaInstagram } from "react-icons/fa";
+import React from "react";
 
 const ContactSocial = () => {
   return (
-    <div className="flex gap-4">
-      <SingleContactSocial link="https://www.linkedin.com/in/vaibhav-mahajan-aa6592234/" Icon={FaLinkedinIn} />
-      <SingleContactSocial link="https://github.com/VaibhavMahajan1509" Icon={FiGithub} />
+    <div className="text-white">
+      <p>Connect with me on social media!</p>
+      {/* Add your icons or links here */}
     </div>
   );
 };
