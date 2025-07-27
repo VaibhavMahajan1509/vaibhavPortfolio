@@ -7,7 +7,7 @@ const ContactSection = () => {
   return (
     <div
       id="contact"
-      className="max-w-[1200px] mx-auto px-4 mt-24 flex flex-col items-center text-center"
+      className="max-w-[1200px] mx-auto px-4 mt-2 flex flex-col items-center text-center"
     >
       <h2 className="text-5xl border-b-4 border-cyan md:text-6xl font-bold text-cyan mb-10">
         Contact Me

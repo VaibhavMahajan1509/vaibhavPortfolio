@@ -12,24 +12,22 @@ const experiences = [
       "Used Git for version control and team collaboration.",
     ],
   },
-  // You can add more experiences like this:
-  // {
-  //   Intership: "React Intern",
-  //   company: "Another Company",
-  //   date: "May 2025 - Jul 2025",
-  //   responsibilities: [ ... ],
-  // },
+  // Add more experiences if needed
 ];
 
 const AllExperiences = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between gap-6 flex-wrap">
+    <div className="flex flex-wrap justify-center gap-8 w-full px-4">
       {experiences.map((experience, index) => (
-        <div key={index} className="flex items-center gap-4">
+        <div
+          key={index}
+          className="flex flex-col items-center gap-4 w-full md:w-[600px]"
+        >
           <SingleExperience experience={experience} />
-          {/* Show arrow only between items and on large screens */}
+
+          {/* Arrow between cards (only show if not last item) */}
           {index < experiences.length - 1 && (
-            <FaArrowRightLong className="text-4xl text-orange-500 hidden lg:block" />
+            <FaArrowRightLong className="hidden lg:block text-4xl text-orange-500" />
           )}
         </div>
       ))}
@@ -38,5 +36,7 @@ const AllExperiences = () => {
 };
 
 export default AllExperiences;
+
+
 
 
