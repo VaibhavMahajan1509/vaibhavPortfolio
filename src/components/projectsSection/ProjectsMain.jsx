@@ -8,14 +8,14 @@ const projects = [
     name: "Food Odering Website",
     year: "Jun-2024",
     align: "right",
-    image: "../../public/images/website-img-1.jpg",
+    image: "/images/website-img-1.jpg",
     link: "https://food-zone-beige.vercel.app/",
   },
   {
     name: "Expense Tracker",
     year: "Jan2025",
     align: "right",
-    image: "../../public/images/website-img-3.jpg",
+    image: "/images/website-img-3.jpg",
     link: "https://expense-tracker-seven-xi-58.vercel.app/",
   },
 ];
