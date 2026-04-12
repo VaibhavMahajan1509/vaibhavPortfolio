@@ -8,9 +8,9 @@ const WhyHireMeBox = ({ isVisible, onClose }) => {
       <div className="bg-black p-4 sm:p-6 rounded-lg border border-orange-500 text-center w-full max-w-md sm:max-w-lg max-h-[85vh] overflow-y-auto animate-fade-in relative">
         <h2 className="text-xl sm:text-2xl font-bold mb-4 text-white">Why You Should Hire Me</h2>
         <p className="text-sm sm:text-base text-white mb-6">
-         I believe you should hire me because I have a strong foundation in front-end technologies like HTML, CSS, JavaScript, and React. During my internship, I gained hands-on experience building real projects, creating responsive user interfaces, and implementing API integrations. This helped me apply my skills in a practical setting and improve my coding abilities.
+        ]I believe you should hire me because I have a strong foundation in front-end technologies like HTML, CSS, JavaScript, and React. I have built multiple real-world projects where I developed responsive user interfaces and implemented API integrations, which helped me gain practical experience and strengthen my problem-solving skills.
 
-I am dedicated, eager to learn, and ready to contribute from day one. I’m looking for an opportunity where I can grow further while delivering real-world solutions.
+I am dedicated, quick to learn, and passionate about building user-friendly web applications. I am ready to contribute, adapt to new challenges, and continuously improve while delivering value to your team.
         </p>
         <button
           onClick={onClose}
