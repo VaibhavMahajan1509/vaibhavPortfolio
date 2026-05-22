@@ -11,7 +11,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="lg:text-2xl sm:text-xl uppercase text-lightGrey"
       >
-        Front End Developer
+        MERN Stack Developer
       </motion.h2>
 
       <motion.h1
@@ -32,8 +32,9 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-        A Passionate Front-End Developer <br />
-        building responsive and interactive web applications using React.
+        A passionate MERN Stack Developer building full-stack web applications
+        using MongoDB, Express.js, React, and Node.js. Focused on creating
+        scalable, responsive, and user-friendly digital products.
       </motion.p>
     </div>
   );
