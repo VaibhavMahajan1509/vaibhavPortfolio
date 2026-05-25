@@ -6,14 +6,14 @@ import { fadeIn } from "../../framerMotion/variants";
 const projects = [
   {
     name: "Food Odering Website",
-    year: "Jun-2024",
+    year: "may-2026",
     align: "right",
     image: "/images/website-img-1.jpg",
     link: "https://vm-bites.vercel.app/",
   },
   {
     name: "Expense Tracker",
-    year: "Jan2025",
+    year: "may-2026",
     align: "right",
     image: "/images/website-img-3.jpg",
     link: "https://spend-wise-inky.vercel.app/",
