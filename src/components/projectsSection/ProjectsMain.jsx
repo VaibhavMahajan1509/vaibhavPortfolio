@@ -9,14 +9,14 @@ const projects = [
     year: "Jun-2024",
     align: "right",
     image: "/images/website-img-1.jpg",
-    link: "https://food-zone-beige.vercel.app/",
+    link: "https://vm-bites.vercel.app/",
   },
   {
     name: "Expense Tracker",
     year: "Jan2025",
     align: "right",
     image: "/images/website-img-3.jpg",
-    link: "https://expense-tracker-seven-xi-58.vercel.app/",
+    link: "https://spend-wise-inky.vercel.app/",
   },
 ];
 
